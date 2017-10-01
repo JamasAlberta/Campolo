@@ -1,0 +1,30 @@
+{
+  "name": "campolo",
+  "version": "1.0.0",
+  "description": "A Camp Rating Site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamasAlberta/Campolo.git"
+  },
+  "keywords": [
+    "Camp",
+    "Site",
+    "Rating",
+    "Rate",
+    "Camping"
+  ],
+  "author": "James Adams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamasAlberta/Campolo/issues"
+  },
+  "homepage": "https://github.com/JamasAlberta/Campolo#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.1"
+  }
+}

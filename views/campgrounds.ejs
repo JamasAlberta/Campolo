@@ -1,0 +1,11 @@
+<h1>This is the Campgrounds page!</h1>
+
+
+<% campgrounds.forEach(function(campgrounds){ %>
+    <div>
+        <h4><%= campgrounds.name %> </h4>
+        <img src="<%= campgrounds.image %>">
+    </div>
+<% }); %>
+
+<a href="/"> Return to landing page!</a>
